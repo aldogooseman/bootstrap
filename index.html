@@ -6,20 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <header class="header">
         <h1>Entrega 24 Feb</h1>
     </header>
-    <Nav class="nav">
-        <ul class="ul">
-            <li class="ul__li">
-                <a href="/pages/servicios.html">Servicios</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <main class="container">
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/office1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/office2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/office3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+        <div class="row" >
+            <div class="card text-center">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Elemento de prueba</h5>
+                  <p class="card-text">Da click aqui para que el profe me pase en la tarea.</p>
+                  <a href="/pages/contacto.html" class="btn btn-primary">Deja tus datos</a>
+                </div>
+                <div class="card-footer text-muted">
+                  2 days ago
+                </div>
+              </div>
+                
+                
+        <div class="row" >
+            <div class="col-md-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tempora eaque! Sit, placeat rem. Quos saepe quibusdam dicta aperiam minima laborum ratione recusandae, ad vel distinctio possimus blanditiis ipsum expedita.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque neque voluptatem rem ea doloribus iusto? Non consequuntur sapiente quidem! Voluptatem voluptas dolores facere provident exercitationem perferendis vel tempora pariatur ipsa!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit impedit quo possimus, laboriosam aliquam harum nisi aspernatur sapiente quam corrupti, deleniti hic dolorum aliquid distinctio explicabo. Neque, corrupti ipsa!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit quas doloremque sequi, illum voluptates dolores officia similique laboriosam fugit, itaque sunt suscipit cum non sapiente dolor enim reprehenderit dolorem?
 
-    </Nav>
-    <main class="main">
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-thumbnail" src="/img/office3.jpg" alt="oficina1">
+            </div>
+        </div>
+
+        </div>
 
     </main>
     <footer class="footer">
